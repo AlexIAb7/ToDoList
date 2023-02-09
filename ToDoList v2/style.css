@@ -1,0 +1,80 @@
+html{
+    font-size:62.5%;
+    font-family: Verdana, sans-serif;
+}
+h1{
+    text-align:center;
+    padding-top:2rem;
+    font-size:3rem;
+}
+#app{
+    max-width: 700px;
+    margin: auto;
+    margin-top: 40vh;
+    background-color:gray;
+    border-radius: 15px;
+    box-shadow: rgba(31, 31, 36, 0.25) 0px 50px 100px -20px,
+      rgba(29, 25, 25, 0.3) 0px 30px 60px -30px,
+      rgba(43, 47, 51, 0.35) 0px -2px 6px 0px inset;
+}
+form{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+#task_input {
+    padding: 1rem;
+    border-radius: 15px;
+    border: none;
+    box-shadow: rgba(31, 31, 36, 0.25) 0px 50px 100px -20px,
+      rgba(29, 25, 25, 0.3) 0px 30px 60px -30px,
+      rgba(43, 47, 51, 0.35) 0px -2px 6px 0px inset;
+    width: 60%;
+  }
+#btn_submit {
+    padding: 1rem;
+    border-radius: 15px;
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+  }
+li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size:1.5rem;
+    font-family:Verdana, sans-serif;
+}
+.interact_btn_container{
+    display: flex;
+    padding-right:2rem;
+}
+span{
+    display: flex;
+    align-items: center;
+    padding: 5px
+}
+svg {
+    cursor: pointer;
+    height: 15px;
+  }
+.options{
+    display:flex;
+    justify-content: space-evenly;
+    padding:1rem;
+}
+#btn_delete_all{
+    padding: 1rem;
+    border-radius: 15px;
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+}
+#btn_delete_do{
+    padding: 1rem;
+    border-radius: 15px;
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+}
